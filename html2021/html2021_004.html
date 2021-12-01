@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    <!-- Page icon goes here -->
+        <link rel="shortcut icon" href="./images/pandaIcon.png"/>
+        <link rel="bookmark" href="./pandaIcon.png"
+
+    </head>
+    <body>
+        <br/>
+        <br/>
+        <br/>
+        <form action="" method="GET">
+            <label for="gender">gender</label>
+            <select name="gender" id = "gender" required>
+                <option></option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="others">Others</option>
+            
+            </select>
+            
+            
+
+            <br/>
+            <label for="suggestion">給網站的建議</label>
+            <br/>
+            <textarea name="suggestion" 
+                        id = "suggestion" 
+                        cols="30" 
+                        rows="10" 
+                        placeholder="感謝你"></textarea>
+            <br/>
+            <label for="area">area</label>
+            <input list="areaList" type="text" name="area" id = "area"/>
+            <datalist id = "areaList">
+                <option value="基隆市">基隆</option>
+                <option value="台北市">台北</option>
+                <option value="台中市">台中</option>
+
+            </datalist>
+
+
+            <br/>    
+
+
+
+            
+            
+            <br/>
+
+            <button type ="submit">提交表單</button>
+        </form>
+
+    </body>
+</html>

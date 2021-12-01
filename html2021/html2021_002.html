@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>問券</title>
+    </head>
+
+
+
+
+    <body>
+        <form action=""method="GET">
+            <input type="file" name="file" />
+            <br/>
+            <label for="myname">姓名</label><!-- for 對id  -->
+            <input  id="myname" 
+                    type="text" 
+                    name="InputName"  
+                    value="Peter"
+                    placeholder="請輸入真實姓名" 
+                    required/>    <!--placeholder  提示  淺 字-->
+            
+            
+            <br/>
+            <label for="telephone">電話</label>
+            <input id="telephone" type="text" name="Telephone"/>
+            <br/>
+            <label for="age">年齡</label>
+            <input id="age" 
+                   type="number"
+                   name="Age"  
+                   value="18" 
+                   min="0" 
+                   max="150"
+
+                   required
+                   step="0.01"/>
+            <br/>
+            <input 
+                type="checkbox" 
+                id="checkbox" 
+                name="News" 
+                value="newspaper" 
+                checked/> <!-- checked 預設打勾 -->
+            <label for="checkbox">訂閱熊貓電子報</label>
+            <br/>
+            <label for="email2">Email</label>
+            <input id="email2" type ="email" name="Email" value="" required/> <!-- required 必填 -->
+            
+            <br/>
+            <label for="password">密碼1 </label>
+            <input id="password" type ="password" name="Password" value="" minlength="8" maxlength="30" required/> 
+            <br/> <br/>
+            0<input type="range" name="" max="100" min="0" value=""/>100
+
+            <br/>
+
+            <button type ="submit">提交表單</button>
+        </form>
+        <hr/>
+
+
+
+
+
+
+
+        <form action=""method="POST"><!-- 不會顯示在網址 -->
+            <label for="code">密碼</label>
+            <input id="code" type="text" name="codenumber"/>
+            
+            <button type ="submit">提交表單</button>   
+        </form>
+
+
+
+    </body>
+
+
+</html>
+
+
