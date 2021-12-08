@@ -1,0 +1,30 @@
+/* universal selector */
+
+*{
+    color:green;
+}
+/* element selector*/
+h2{
+    color:rgb(255,50,200);
+}
+/* id selector */
+#redText{
+    color:rgb(255, 55, 5);
+}
+/* class selector*/ 
+.blueText{
+    color:rgb(2,255,255);
+}
+.largeText{
+    font-size: 3rem;
+}
+
+h5.blueText{
+    font-size: 4.5rem;
+    color:rgb(255,145,200)
+
+}
+h6.redText{
+    font-size: 2rem;
+    color:rgb(55,55,145)
+}
