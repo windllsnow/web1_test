@@ -1,7 +1,11 @@
 /* universal selector */
-
+/* 反白 */
+*::selection{
+    background-color: goldenrod; 
+}
 *{
-    color:green;
+    color:rgb(239, 243, 19);
+
 }
 /* element selector*/
 h2{
@@ -15,6 +19,9 @@ h2{
 .blueText{
     color:rgb(2,255,255);
 }
+.greenText{
+    color:green;
+}
 .largeText{
     font-size: 3rem;
 }
@@ -27,4 +34,44 @@ h5.blueText{
 h6.redText{
     font-size: 2rem;
     color:rgb(55,55,145)
+}
+/* grouping selector  */
+h4,
+h3{
+    color:yellow;
+}
+/* descendant selector   小孩的意思 */
+div.link2  a{ 
+    /*注意 同個標籤 用.     小孩 用  space */
+    color:aquamarine;
+}
+
+
+
+/* Attribute Selector */
+
+/* Pseudo Class */
+/* hover 游標過去 */
+/* active按住變 */
+/* focus 點到變 */
+input[type="text"]:focus{
+    color:darkorchid;
+    background-color:rgb(255, 0, 0);
+}
+
+/* ????????? */
+tr:nth-child(1) {
+    color:rgb(12, 12, 12);
+}
+/* ????????????????? */
+
+/* Pseudo Element */
+p::before{
+    content: ">>";
+    color:rgb(139, 23, 206);
+}
+h1::after{
+    content:"✔";
+    color:rgb(215,33,53);
+    
 }
