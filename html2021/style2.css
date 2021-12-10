@@ -1,0 +1,13 @@
+body{
+    /* background-image: url("../images/149.jpg"); */
+    background: url("../images/149.jpg");
+    /* background-size: cover; */
+    background-size:contain;
+    background-repeat: no-repeat;
+    
+    background-position: center;
+}
+h1{
+    background-color: aquamarine;
+    color: rgb(252, 200, 31);
+}

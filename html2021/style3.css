@@ -1,0 +1,17 @@
+
+button.example1{
+    /* padding; */
+    padding-top:15px;
+    padding-right: 3rem;
+    padding-bottom: 2rem;
+    padding-left: 5rem;
+}
+button.example2{
+    padding:1rem 2rem 3rem 4rem;
+}
+button.example3{
+    padding:2rem 5rem;
+}
+button.example4{
+    padding: 6rem;
+}

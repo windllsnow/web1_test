@@ -1,0 +1,17 @@
+h1.plc{
+    /* content,marin,border,width,height */
+    background-color: rgb(255, 0, 0);
+    color: rgb(26, 235, 78);
+    margin: 5rem 2rem;
+}
+h3.pic{
+    background-color: rgb(255, 0,111 );
+    color:#007be7;
+    /* width:500px; */
+    /* height:500px; */
+    width:50vw;
+    height:50vh;/*隨營幕 變*/
+    border:2rem solid black;/*寬度 實線  顏色*/
+    text-align:center;
+
+}

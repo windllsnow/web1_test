@@ -1,0 +1,27 @@
+ /* 絕對單位 */
+p{
+    font-size:30px;
+    text-align: right;/*靠右*/
+    text-decoration: line-through;
+    font-family: 'Raleway', sans-serif;
+    
+}
+/* 網頁預設16px=1rem */
+/* 相對單位(優) */
+h5{
+    font-size: 3rem;
+    text-decoration: underline;
+    line-height: 1.5rem;
+    letter-spacing: 1rem;
+    
+}
+h4{
+    font-size: 2rem;
+    font-weight: 800;/*預設400  粗度*/
+}
+
+a{
+    text-decoration: none;
+    color:coral;
+  
+}
