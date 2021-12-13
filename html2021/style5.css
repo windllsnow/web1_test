@@ -9,4 +9,15 @@
   
 
 
+
+}
+div.box1{
+    width: 500px;
+    height: 500px;
+    background-color:black
+}
+div.box2{
+    width: 50%;
+    height: 50%;
+    background-color:teal;
 }
