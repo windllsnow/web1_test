@@ -21,3 +21,8 @@ div.box2{
     height: 50%;
     background-color:teal;
 }
+div.box3{
+    width: 50vw;
+    height: 50vh;
+    background-color: darkmagenta;
+}
