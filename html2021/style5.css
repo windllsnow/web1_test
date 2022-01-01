@@ -1,12 +1,21 @@
 .survey{
     background-color: darkred;
+    
     color: gold;
     text-decoration: none;
-    padding:0.75rem 1rem;
+    padding:0.5rem 1rem;
+
+    display: block;
+    width : 80vw;
+    height: 100px;
+
+
+
 }
 .survey:hover{
     background-color: darkblue;
-  
+    /* 懸停特效 */
+
 
 
 
@@ -25,4 +34,8 @@ div.box3{
     width: 50vw;
     height: 50vh;
     background-color: darkmagenta;
+}
+.pic {
+    width: 350px;
+    height: 350px;
 }
