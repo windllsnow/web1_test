@@ -1,0 +1,56 @@
+div.container {
+    width : 500px;
+    height : 500px;
+    background: #ebae06;
+    position: relative;
+}
+
+
+
+div.box{
+    width : 100px;
+    height : 100px;
+    background:#00ff00;
+    transition: all 0.75s ease-in-out;
+    position: absolute;
+    top :50%;
+    left :50%;
+    transform: translate(-50%,-50%);
+}
+
+
+div.box:hover{
+    transform: translate(-250px,-250px);
+}
+
+div.box1{
+    width : 100px;
+    height : 100px;
+    background:rgba(0, 0, 0, 0.075);
+    
+
+}
+div.box1:hover{
+    transform: translate(200px,200px);
+    background:rgba(0, 0, 0, 1);
+    transition: all 3.5s ease-in-out;
+
+    
+}
+div.box2 {
+    width : 100px;
+    height : 100px;
+    background:rgba(23, 0, 228, 0.85);
+    position: absolute;
+    top :75%;
+    left :75%;
+
+
+}
+
+div.box2:hover{
+    transform: scale(0.25,4) rotateZ(45deg);
+    
+    transition: all 3.5s ease-in-out;
+    
+}

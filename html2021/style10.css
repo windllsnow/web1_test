@@ -1,0 +1,42 @@
+div.container {
+    width : 500px;
+    height : 500px;
+    background: #ebae06;
+    /* overflow:scroll ;  或 hidden;  */
+
+}
+
+
+
+div.box{
+    width : 100px;
+    height : 100px;
+    background:#00ff00;
+    /* animation-name: cross;
+    animation-duration: 2s; */
+    position: relative;
+    /* animation-delay: 3s; */ 
+    /* animation-iteration-count: infinite;   or 1 .2 ... 次*/
+    /* animation-direction: alternate; */
+    /* animation-timing-function: ease-in; */
+    /* animation-fill-mode: forwards; */
+    /* animation-iteration-count: 2; */
+
+    animation: cross 2s ease-in 1.5s 3 alternate forwards;
+    border-radius: 15px;
+
+}
+
+
+@keyframes cross {
+    from {
+        background: aqua;
+        top: 0;
+        left:0;
+    }
+    to{
+        background:red;
+        top: 400px;
+        left:400px;
+    }
+}
