@@ -123,3 +123,7 @@ const person = {
     }
 }
 person.speak();
+
+
+console.log("--------------------------------");
+
