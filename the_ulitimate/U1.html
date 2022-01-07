@@ -34,8 +34,42 @@
             console.log("Banana",name);
             console.log("__________________");
             
+            
+            
+
+            person1 =  prompt("Enter your name");
+            function greeting() {
+                //外 變數  內函數 可用，相反 不行
+                console.log(`Hello ${person1}`);
+            }
+            greeting();
+            console.log("__________________");
+            console.log("Waiting 2.5 seconds...");
+            setTimeout(function() {
+                console.log("Do something"); 
+                
+            },2500)//毫秒，這函數裡是 最晚出現的，因 要等 2.5s
+            console.log("The last line");
+
+
+            let x = "thing";
+            console.log(x);
+            x= "thing2";
+            console.log(x);
+            
+            let count = 0;
+
+            const myInterval = setInterval(function() {
+                console.log("Checking...");
+                count++;
+                
+                if(count==3) {
+                    clearInterval(myInterval);
+                    console.log("That was the  last one");
+                }
+            },3000)
 
 
         </script>
-    </bod
+    </body>
 </html>
