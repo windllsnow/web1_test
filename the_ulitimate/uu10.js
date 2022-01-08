@@ -11,8 +11,8 @@ class Person {
     }
 }
 
-const Kalob = new Person("Kully");
+const kalob = new Person("Kully");
 
-Kalob.greeting();
-Kalob.setName("Kully");
-Kalob.greeting();
+kalob.greeting();
+kalob.setName("KuOOOOO");
+kalob.greeting();

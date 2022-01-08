@@ -1,0 +1,17 @@
+{
+    "name" : "Kate" ,
+    "favorite food" :["pizza","tacos","salmon"],
+    "age" : 30,
+    "children" : [
+        {
+            "name" : "Zebra",
+            "age" : 3
+        },
+        {
+            "name" : "Cat",
+            "age" : 4
+        }
+    ],
+    "//comment" : "像JavaScripts 的 Object  沒有名稱而已",
+    "//_comment" : "comment 的方 式….."
+}

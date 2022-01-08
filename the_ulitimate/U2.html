@@ -6,7 +6,21 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>D2</title>
     </head>
+
     <body>
+        <script>
+            // JSON = JavaScript Object Notation
+
+            //Ajax = Asynchronous JavaScript and XML
+            //XMLHttpRequest
+
+            fetch("https://swapi.dev/api/people/1/")
+                .then((response) => response.json())
+                .then((data) => {
+                    console.log(data);
+                });
+        </script>
+
         <script src="uu10.js"></script>
     </body>
 </html>
