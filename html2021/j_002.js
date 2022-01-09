@@ -3,7 +3,7 @@ while (true) {
 
     yourAge = Number(yourAge);
     console.log(yourAge, typeof yourAge);
-
+    //age === NaN     或 age == NaN 不行
     if (isNaN(yourAge)) {
         alert("GG! PLease English! Thankyou! ");
         console.log(`your key-in words is${yourAge}`);
