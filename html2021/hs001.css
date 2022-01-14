@@ -1,0 +1,46 @@
+div.container{
+    border : 3px solid black;
+    height: 600px;
+    display: flex;
+    /* flex-direction: row-reverse; */
+    flex-wrap:wrap ;
+
+    align-items: center;
+    /* align-items: stretch; box height 沒設定 這就是預設值 */
+    justify-content:  flex-end;/*預設是flex-direction :row*/
+    /* flex-start,flex-end,center,space-between,space-around,space-evenly; */
+}
+
+.box {
+    width: 200px;/*有設定時 =>最大值, content decides width*/
+    height: 200px;/*有設定時 =>固定, content decides width*/
+    /* flex-grow: 1; */
+    /* flex-shrink: 1; */
+    /* flex-basis: 200px; */
+    flex:1 1 150px;
+    /* grow, shrink,basis */
+
+}
+
+.box1{
+    
+    background-color: aqua;
+}
+.box2{
+    
+    background-color:aquamarine;
+}
+.box3{
+    background-color:tomato;
+}
+.box4{
+    background-color: #ffee00;
+}
+.box5{
+    background-color: #db0fff;
+}
+.box6{
+
+    flex-basis: 150px;/*width min */
+    background-color: red;
+}
