@@ -1,0 +1,17 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+/*重要*/
+
+html,
+body {
+	height: 100%;
+}
+
+div.black {
+	background-color: rgb(240, 12, 12);
+	width: 50%;
+	height: 100%;
+}

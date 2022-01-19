@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #f5f100;
+  align-items: center;
+  flex-wrap: wrap;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 5;
+  box-shadow: 3px 3px 10px 3px #101111;
+}
+header h1 {
+  color: blue;
+}
+header:hover {
+  background-color: red;
+}
+
+div.link {
+  display: flex;
+  flex-direction: column;
+}
+
+img.pic {
+  width: 150px;
+  height: 150px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+/*
+1.nested css
+2.variables
+3.self &
+4.import
+5. mixin
+*//*# sourceMappingURL=style.css.map */

@@ -1,0 +1,30 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+$themeColor: blue;
+
+@import "./header";
+@mixin flexbox($direction) {
+	display: flex;
+	flex-direction: $direction;
+}
+
+div.link {
+	@include flexbox(column);
+}
+
+img.pic {
+	width: 150px;
+	height: 150px;
+	object-fit: cover;
+}
+/*
+1.nested css
+2.variables
+3.self &
+4.import
+5. mixin
+*/
